@@ -42,13 +42,12 @@ createCollectable("steve", 250, 600)
 createCollectable("max", 1350, 550)
     createCollectable("grace", 600, 500)
     // TODO 4 - Create Cannons
+createCannon("right", 300, 700);
+createCannon("left", 500, 900);
+createCannon("top", 200, 500);
 
 
-    
-    
-    //////////////////////////////////
-    // ONLY CHANGE ABOVE THIS POINT //
-    //////////////////////////////////
+//////////////////////////////////
   }
 
   registerSetup(setup);
